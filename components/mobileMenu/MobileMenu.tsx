@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 
 import {
     Sheet,
+    SheetClose,
     SheetContent,
     SheetDescription,
     SheetFooter,
@@ -33,7 +34,7 @@ export default function MobileMenu() {
     const [isOpen, setIsOpen] = useState<boolean>(false)
 
     return (
-        <Sheet>
+        <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
                 <Button
                     variant="ghost"
@@ -45,9 +46,19 @@ export default function MobileMenu() {
 
                 </Button>
             </SheetTrigger>
-            <SheetContent className="w-[300px] bg-[#00204d]">
+            <SheetContent className="w-[300px] bg-[#082a58] border-0">
+                {/* X personalizada */}
+                <SheetClose asChild>
+                    <button
+                        className="absolute top-3 right-3 text-white "
+                        aria-label="Cerrar menú"
+                    >
+                        <X size={28} />
+                    </button>
+                </SheetClose>
+
                 <SheetHeader>
-                    <SheetTitle>Edit profile</SheetTitle>
+                    <SheetTitle>profile</SheetTitle>
                     <SheetDescription>
                         Make changes save when you&apos;re done.
                     </SheetDescription>
@@ -59,7 +70,7 @@ export default function MobileMenu() {
                                 navItems.map(item => (
                                     <NavigationMenuItem key={item.label}>
                                         <NavigationMenuLink asChild className={` `}>
-                                            <Link href={item.href}>{item.label}</Link>
+                                            <Link href={item.href} onClick={() => setIsOpen(false)}>{item.label}</Link>
                                         </NavigationMenuLink>
                                     </NavigationMenuItem>
                                 ))

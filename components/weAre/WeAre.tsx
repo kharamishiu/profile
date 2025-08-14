@@ -5,7 +5,7 @@ import { achievements } from '@/utils/data'
 
 export default function WeAre() {
     return (
-        <section id="weare" className="bg-[rgb(20,22,26)] py-10">
+        <section id="about" className="bg-[rgb(20,22,26)] py-10">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="translate-y-3.5 animate-in slide-in-from-top-0  duration-500">

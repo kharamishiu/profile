@@ -4,7 +4,7 @@ export const navItems = [
     { href: "/", label: "Inicio" },
     { href: "#about", label: "Quiénes Somos" },
     { href: "#services", label: "Servicios" },
-    { href: "#portfolio", label: "Portafolio" },
+    { href: "#portafolio", label: "Portafolio" },
     { href: "#contact", label: "Contacto" },
 ];
 

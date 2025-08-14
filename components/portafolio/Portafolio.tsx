@@ -7,7 +7,7 @@ import { projects } from '@/utils/data'
 export default function Portafolio() {
 
     return (
-        <section className="bg-[rgb(20,22,26)] py-10">
+        <section id="portafolio" className="bg-[rgb(20,22,26)] py-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16 animate-fade-in">
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
