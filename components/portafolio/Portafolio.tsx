@@ -43,7 +43,7 @@ export default function Portafolio() {
                                         <Badge
 
                                             key={tag}
-                                            {/*   variant="outline" */}
+
                                             className="text-xs border-primary/30 text-primary"
                                         >
                                             {tag}
