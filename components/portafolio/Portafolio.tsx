@@ -13,7 +13,7 @@ export default function Portafolio() {
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
                         Nuestro <span className="gradient-text">Portafolio</span>
                     </h2>
-                    <p className="text-xl text-text-light max-w-3xl mx-auto">
+                    <p className="text-xl text-text-light max-w-3xl mx-auto text-slate-100">
                         Descubre algunos de los proyectos que hemos desarrollado con pasión
                         y dedicación
                     </p>
@@ -59,7 +59,7 @@ export default function Portafolio() {
                     <Button
                         variant="outline"
                         size="lg"
-                        className="border-primary/30 text-white hover:bg-primary/10"
+                        className="border-primary/30 hover:text-white hover:bg-purple-600/70 bg-purple-400"
                     >
                         Ver Todos los Proyectos
                         <ArrowRight className="ml-2 h-5 w-5" />
