@@ -86,7 +86,7 @@ export default function Footer() {
 
                 <div className="border-t border-primary/20 mt-8 pt-8 text-center">
                     <p className="text-text-light">
-                        © 2025 ProfilerK. Todos los derechos reservados. Desarrollado con
+                        © 2025 VanDigital. Todos los derechos reservados. Desarrollado con
                         ❤️ para el futuro digital.
                     </p>
                 </div>

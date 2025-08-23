@@ -58,9 +58,10 @@ export default function MobileMenu() {
                 </SheetClose>
 
                 <SheetHeader>
-                    <SheetTitle>profile</SheetTitle>
+                    <SheetTitle className="text-center text-2xl font-semibold text-slate-300 mb-3">VanDigital</SheetTitle>
+                    <hr />
                     <SheetDescription>
-                        Make changes save when you&apos;re done.
+
                     </SheetDescription>
                 </SheetHeader>
                 <div className="grid items-center max-auto ">
@@ -85,7 +86,7 @@ export default function MobileMenu() {
 
                 </SheetFooter>
             </SheetContent>
-        </Sheet>
+        </Sheet >
     )
 }
 
