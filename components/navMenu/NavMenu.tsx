@@ -2,6 +2,7 @@ import React from 'react'
 import MobileMenu from '../mobileMenu/MobileMenu';
 import { navItems } from '@/utils/data';
 
+
 export default function NavMenu() {
 
 
@@ -11,8 +12,10 @@ export default function NavMenu() {
             <div className="max-w-7xl mx-auto px-2 sm:px-3 lg:px-6 bg-purple-400">
                 <div className="flex items-center justify-between h-16">
                     <div className="shrink-0">
-                        <h2 className='text-2xl font-bold text-purple-600'>
-                            <span className='bg-gradient-to-br'>MRDev</span>
+                        <h2 className='text-lg font-bold text-purple-800'>
+                            <span className='bg-gradient-to-br'>VanDigital
+
+                            </span>
                         </h2>
                     </div>
 

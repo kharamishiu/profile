@@ -1,3 +1,4 @@
+import ButtonWsp from "@/components/buttonWsp/ButtonWsp";
 import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
 import Portafolio from "@/components/portafolio/Portafolio";
@@ -11,8 +12,9 @@ export default function Home() {
       <Hero />
       <Services />
       <WeAre />
-      <Portafolio />
+      {/**<Portafolio /> */}
       <Footer />
+      <ButtonWsp />
     </div>
   );
 }

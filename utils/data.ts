@@ -4,12 +4,12 @@ export const navItems = [
     { href: "/", label: "Inicio" },
     { href: "#about", label: "Quiénes Somos" },
     { href: "#services", label: "Servicios" },
-    { href: "#portafolio", label: "Portafolio" },
+    //{ href: "#portafolio", label: "Portafolio" },
     { href: "#contact", label: "Contacto" },
 ];
 
 
-export const textsHero = ["Innovación", "Creatividad", "Tecnología", "Futuro de AI y MCP"];
+export const textsHero = ["Innovación", "Creatividad", "Tecnología", "Ideas", "Impacto estrategico"];
 
 export const services = [
     {
