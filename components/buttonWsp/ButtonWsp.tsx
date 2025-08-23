@@ -13,7 +13,7 @@ export default function ButtonWsp() {
                     <div className="absolute bottom-6 right-6 pointer-events-auto">
                         <div className="relative group">
                             <a
-                                href="https://wa.me/1234567890?text=Hola%2C%20me%20interesa%20conocer%20más%20sobre%20sus%20servicios"
+                                href="https://wa.me/+56952314410?text=Hola%2C%20me%20interesa%20conocer%20más%20sobre%20sus%20servicios"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="relative flex items-center justify-center w-12 h-12 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-2xl hover:shadow-green-500/25 transition-all duration-500 transform hover:scale-110 animate-bounce border-2 border-white/70"
