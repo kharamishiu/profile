@@ -56,7 +56,7 @@ export const projects = [
         title: "Tainer Can",
         link: "https://trainer-can.vercel.app",
         description:
-            "Plataforma para enseñar y aprender sobre como entrenar a tu mascota, version DEMO",
+            "Plataforma para enseñar y aprender sobre como entrenar a tu mascota.",
         image:
             "/traincan.PNG",
         tags: ["Clerk", "Nextjs", "Prisma", "TailwindCSS"],
@@ -64,7 +64,7 @@ export const projects = [
     {
         title: "Site Bicileta",
         link: "https://demo-visual-bici.netlify.app/",
-        description: "Layout visual para biciletas, ademasde ver estados de biciletas cuando se reparan ",
+        description: "Sitio para biciletas, permite ver estados de biciletas cuando se reparan. ",
         image:
             "/siteBici.PNG",
         tags: ["Nextjs", "ShadUI", "TailwindCSS"],
