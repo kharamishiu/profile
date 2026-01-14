@@ -14,7 +14,7 @@ export default function Portafolio() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16 animate-fade-in">
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                        Nustro <span className="gradient-text">Portafolio - Demostrativo</span>
+                        Nuestro <span className="gradient-text">Portafolio - Demostrativo</span>
                     </h2>
                     <p className="text-xl text-text-light max-w-3xl mx-auto text-slate-100">
                         Descubre algunos de los proyectos que hemos desarrollado con pasión
