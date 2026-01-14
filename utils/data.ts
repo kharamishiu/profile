@@ -62,20 +62,12 @@ export const projects = [
         tags: ["Clerk", "Nextjs", "Prisma", "TailwindCSS"],
     },
     {
-        title: "SaaS Dashboard",
-        link: "",
-        description: "Dashboard analítico para empresa de software como servicio",
+        title: "Site Bicileta",
+        link: "https://demo-visual-bici.netlify.app/",
+        description: "Layout visual para biciletas, ademasde ver estados de biciletas cuando se reparan ",
         image:
-            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-        tags: ["Vue.js", "D3.js", "Python"],
+            "/siteBici.PNG",
+        tags: ["Nextjs", "ShadUI", "TailwindCSS"],
     },
-    {
-        title: "Mobile Banking App",
-        link: "",
-        description:
-            "Aplicación móvil bancaria con alta seguridad y UX excepcional",
-        image:
-            "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500&h=300&fit=crop",
-        tags: ["React Native", "Firebase", "Security"],
-    },
+
 ];
