@@ -4,7 +4,7 @@ export const navItems = [
     { href: "/", label: "Inicio" },
     { href: "#about", label: "Quiénes Somos" },
     { href: "#services", label: "Servicios" },
-    //{ href: "#portafolio", label: "Portafolio" },
+    { href: "#portafolio", label: "Portafolio" },
     { href: "#contact", label: "Contacto" },
 ];
 
@@ -53,15 +53,17 @@ export const achievements = [
 
 export const projects = [
     {
-        title: "E-commerce Platform",
+        title: "Tainer Can",
+        link: "https://trainer-can.vercel.app",
         description:
-            "Plataforma completa de comercio electrónico con gestión avanzada",
+            "Plataforma para enseñar y aprender sobre como entrenar a tu mascota, version DEMO",
         image:
-            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-        tags: ["React", "Node.js", "MongoDB"],
+            "/traincan.PNG",
+        tags: ["Clerk", "Nextjs", "Prisma", "TailwindCSS"],
     },
     {
         title: "SaaS Dashboard",
+        link: "",
         description: "Dashboard analítico para empresa de software como servicio",
         image:
             "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
@@ -69,6 +71,7 @@ export const projects = [
     },
     {
         title: "Mobile Banking App",
+        link: "",
         description:
             "Aplicación móvil bancaria con alta seguridad y UX excepcional",
         image:

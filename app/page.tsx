@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <Services />
       <WeAre />
-      {/**<Portafolio /> */}
+      <Portafolio />
       <Footer />
       <ButtonWsp />
     </div>

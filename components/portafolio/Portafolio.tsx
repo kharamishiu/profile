@@ -1,8 +1,11 @@
 
 import { Card, CardContent } from '../ui/card'
-import { ArrowRight, Badge } from 'lucide-react'
+import { ArrowRight, ExternalLink } from 'lucide-react'
 import { Button } from '../ui/button'
 import { projects } from '@/utils/data'
+import Image from 'next/image'
+import Link from 'next/link'
+import { Badge } from '../ui/badge'
 
 export default function Portafolio() {
 
@@ -23,17 +26,33 @@ export default function Portafolio() {
                     {projects.map((project, index) => (
                         <Card
                             key={index}
-                            className="bg-card/50 backdrop-blur-sm border-primary/20 overflow-hidden hover:scale-105 transition-transform duration-300 group cursor-pointer animate-slide-up"
+                            className="bg-card/50 backdrop-blur-sm border-primary/20 overflow-hidden hover:scale-102 transition-transform duration-300 group:animate-slide-up"
                             style={{ animationDelay: `${index * 0.2}s` }}
                         >
                             <div className="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                                <div className="text-white/60 text-sm">
-                                    Vista Previa del Proyecto
+                                <div className=" text-white/60 text-sm">
+                                    {
+                                        !project.image && (<p>Vista Previa del Proyecto</p>)
+                                    }
+
+                                    <Image
+                                        alt="imageporfolio"
+                                        width={450}
+                                        height={450}
+                                        src={project.image}
+
+                                        className='object-cover transition-transform duration-500 ease-out group-hover:-translate-y-2 group-hover:scale-110'
+                                    />
+
+
                                 </div>
                             </div>
                             <CardContent className="p-6">
-                                <h3 className="text-xl font-bold text-white mb-3">
-                                    {project.title}
+                                <h3 className="text-xl font-bold text-white mb-3 hover:text-purple-600 transition-colors ease-in-out">
+                                    <Link href={project.link} >
+
+                                        {project.title}
+                                    </Link>
                                 </h3>
                                 <p className="text-text-light mb-4 leading-relaxed">
                                     {project.description}
@@ -43,8 +62,7 @@ export default function Portafolio() {
                                         <Badge
 
                                             key={tag}
-
-                                            className="text-xs border-primary/30 text-primary"
+                                            className="text-xs bg-purple-700 border-primary/30 text-primary flex items-center gap-1.5 px-2.5 py-1 transition-colors hover:bg-purple-400 hover:text-primary-foreground"
                                         >
                                             {tag}
                                         </Badge>

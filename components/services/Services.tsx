@@ -28,8 +28,8 @@ export default function Services() {
                     {services.map((service, index) => (
                         <Card
                             key={index}
-                            className={`${colorMap[service.color]} border-0 hover:scale-105 transition-transform duration-300 animate-slide-up group cursor-pointer
-                                
+                            className={`${colorMap[service.color]}  border-0 hover:scale-105 transition-transform duration-300  group cursor-pointer
+                                       
                             `}
                             style={{
                                 animationDelay: `${index * 0.2}s`,
@@ -47,6 +47,7 @@ export default function Services() {
                                     {service.description}
                                 </p>
                             </CardContent>
+
                         </Card>
                     ))}
                 </div>
